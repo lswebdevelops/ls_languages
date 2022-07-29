@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color:rgb(245, 245, 245);
+    font-family: 'Open Sans', sans ;
+    color: var(--main-color);
+}
+/* div{
+    border: solid 1px firebrick;
+} */
+:root{
+    --main-backgrounc-color: rgb(200, 200, 200);
+    --main-text: 2rem;
+    --main-border: 1px solid black;
+    --main-boxShadow:rgb(225, 225, 225);
+    --main-color:black ;
+
+
+  }
+
+.nav{
+    padding: 6px;
+    display: flex;
+    background-color: rgb(215, 215, 215);
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px 0px var(--main-boxShadow); 
+}
+.navRight{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    cursor: pointer;
+    background-color: var(--main-background-color);
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+.fa-language{
+color: rgb(76, 139, 245);
+box-shadow: 2px 3px 3px 2px  rgb(66, 129, 235);
+border-radius: 5px;
+
+}
+
+/* header  */
+
+.header{
+height: 45vh;
+background-image: url(images/students.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+/* opacity: 0.4; */
+display: flex;
+justify-content: flex-end;
+    
+flex-direction:  column;
+box-shadow: 0px -3px -2px 0px var(--main-boxShadow); 
+}
+.header .lsLanguages{
+    padding: 5px;
+    font-size: 3rem;
+    color: black;
+    opacity: 0.75;
+}
+.material{
+    padding: 15px;
+    display: flex;
+justify-content: space-around;
+flex-direction: column;
+
+}
+.listOfBooks{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imagesMaterial{
+    display: flex;
+    justify-content: space-evenly;
+     gap: 5px;
+   
+}
+.workBookMaterial,.studentMaterial{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.homeWMaterial, .classMaterial{
+width: 180px;
+height: 230px;
+padding: 5px;
+
+}
+
+
+
+
+
+.howItWorks{
+    display: flex;
+   
+     justify-content: space-between;
+box-shadow: 0px -3px -2px 0px var(--main-boxShadow); 
+    
+    }
+     p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+.imgLeft , .imgRight{
+        background-size: cover;
+        width: 25%;
+        opacity: 0.6;
+        background-repeat: no-repeat;
+    }
+
+    .imgLeft{
+        background-image: url(images/englishBooks.jpeg);
+        
+      }
+    .imgRight{
+        background-image: url(images/leftBooks.jpeg);
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border:1px solid black;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+        border:1px solid black;
+
+      }
+
+
+/* END SINGLE CATEGORY PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    .imgLeft{
+        background-image:none;
+      }
+    .imgRight{
+        background-image:none;
+    }
+  
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    .imgLeft{
+        background-image:none;
+      }
+    .imgRight{
+        background-image:none;
+    }
+}

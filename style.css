@@ -133,17 +133,22 @@ box-shadow: 0px -3px -2px 0px var(--main-boxShadow);
     table {
         border-collapse: collapse;
         border-spacing: 0;
-        width: 100%;
+        
         border:1px solid black;
+        min-width: 540px;
+        
       }
       
       th, td {
-        text-align: left;
-        padding: 8px;
+        text-align: center;
+        padding: 6px;
         border:1px solid black;
 
       }
-
+      .divTable{
+        overflow: scroll;
+text-align: left;
+      }
 
 /* END SINGLE CATEGORY PAGE */
 /********** Large devices only **********/

@@ -306,6 +306,11 @@ a .fa-whatsapp{
     justify-content: space-between;
 
 }
+
+#top{
+    background-color: rgb(205, 205, 205);
+    padding-bottom: 8px;
+}
 /* END SINGLE CATEGORY PAGE */
 /********** Large devices only **********/
 @media (min-width: 1200px) {

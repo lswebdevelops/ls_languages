@@ -15,19 +15,38 @@
 </head>
 <body>
 <div class="container">
-   <div class="nav">
-    <div class="navLeft"><img src="images/y_b_ls_favicon.png" alt="a logo"></div>
-    <div class="navRight">
-        <div class="aboutMe"><a href="aboutMe.html" target="_blank">Sobre o Professor</a></div>
-        <div class="chooseLanguage"><i class="fa-solid fa-2x fa-language"></i></div>
-    </div>
 
-   </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a ></a>
+        <div class="dropdown">
+          <button class="dropbtn">Menu 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="aboutMe.html" target="_blank">Professor</a>
+           <a href="#mat">Material</a>
+           <a href="#met">Método</a>
+           <a href="#hor">Horários</a>
+
+           <a href="#cont">Contato </a>
+           <a href="#dep">Depoimentos </a>
+
+
+            <a href="https://lswebdevelops.github.io/MyProfile2/" target="_blank">Portfolio</a>
+          </div>
+        </div> 
+      </div>
+
+  <!-- end of navbar  -->
+
+
+
 <header class="header">
-    <div class="lsLanguages">LS IDIOMAS</div>
+    <div class="lsLanguages" id="lsID">LS IDIOMAS</div>
 </header><!-- end header one -->
 <section class="material">
-    <h1>Material 📚</h1>  
+    <h1 id="mat">Material 📚</h1>  
         <p>Todo o material é fornecido pela escola, <strong>não</strong> havendo a necessidade de compra.<br>
             Os livros utilizados na LS Idiomas são da coleção Interchange da Universidade de Cambridge.<br><br>
              <br> <em>"Acreditamos que o inglês pode desbloquear uma vida 
@@ -70,7 +89,7 @@
 <section class="howItWorks">
     <div class="imgLeft"></div>
     <div class="howWorks">
-       <h1> Método utilizado</h1>
+       <h1 id="met"> Método utilizado</h1>
        <h2>Contexto geral</h2>
        <p>
         Todas as aulas são online com o uso geralmente do Skype, onde o aluno desfruta o sossego do lar sem 
@@ -121,7 +140,7 @@
 
 
 <section class="agenda">
-    <div><h1>Horários</h1>
+    <div><h1 id="hor">Horários</h1>
         <div class="divTable">
         <table style="width:100%">
             <tr>
@@ -183,14 +202,14 @@
 
 
 <section class="payment">
-    <h1>Para mais informações entre em contato pelo Whatsapp <span>
+    <h1 id="cont">Para mais informações entre em contato pelo Whatsapp <span>
         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5547999655324"> <i class="fa-brands fa-2x fa-whatsapp"></i>
              </a></span></h1>
 </section><!-- end payment -->
 
 
 <section class="testimony">
-    <h1>Depoimentos</h1>
+    <h1 id="dep">Depoimentos</h1>
    <div class="students">
  
     <div class="studTest">
@@ -208,6 +227,7 @@
     </div>   
     
    </div>
+   <p id=><a href="#lsID">Ao topo</a></>
 </section><!-- end students -->
 
 <footer class="section is-primary is-small has-text-centered">

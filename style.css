@@ -339,3 +339,8 @@ a .fa-whatsapp{
         background-image:none;
     }
 }
+
+.green{
+  background-color: rgb(54, 220, 54);
+  font-weight: bold;
+}

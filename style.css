@@ -344,6 +344,11 @@ a .fa-whatsapp{
   background-color: rgb(54, 220, 54);
   font-weight: bold;
 }
+.red{
+  background-color: rgb(220, 54, 54);
+  font-weight: bold;
+}
+
 
 #btnAboutMe{
   background-color: transparent;

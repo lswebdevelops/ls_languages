@@ -341,12 +341,15 @@ a .fa-whatsapp{
 }
 
 .green{
-  background-color: rgb(54, 220, 54);
-  font-weight: bold;
+  background-color: #36dc36;
+  /* font-weight: bold; */
+  color: #000000;
+
 }
 .red{
-  background-color: rgb(220, 54, 54);
-  font-weight: bold;
+  background-color: #dc3636;
+  /* font-weight: bold; */
+  color: #FFFFFF;
 }
 
 

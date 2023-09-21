@@ -198,51 +198,8 @@
               class="fa-brands fa-2x fa-whatsapp"></i>
           </a></span></h1>
           <hr>
-<!--  constac info:  -->
-          <section id="contactus" class="mx-auto w-5/6 pt-24 pb-32">
-            <div>
-                <!-- Header -->
-                <div class="md:w-3/5">
-                    <h2>Nos envie seu contato:</h2>
-                </div>
-                <!-- Form -->
-                <div class="mt-10 basis-3/5 div-form-contact">
-                    <form action="https://formsubmit.co/51b380f99a3ef66f9a95068687c9e8b2" method="POST" onsubmit="showThankYouMessage()">
-                        <div class="div-form-contact-inputs">
-                          <input type="text" name="name" required placeholder="Nome">
-                        <input type="email" name="email" required placeholder="Email">
-                        <textarea name="message" required placeholder="Mensagem"></textarea>
-                        <button type="submit">Enviar</button>
-
-                        </div>
-                    </form>
-                    <!-- Thank you message -->
-                    <div id="thankYouMessage" class="thankYouMessage" style="display: none;">
-                      Obrigado pela sua inscrição! Nós entraremos em contato em breve.
-                    </div>
-                </div>
-            </div>
-        </section>
     
-        <script>
-          function showThankYouMessage() {
-              // Prevent the form from actually submitting (for demonstration purposes)
-              event.preventDefault();
-  
-              // Hide the form elements
-              const formElements = document.querySelectorAll("form input, form textarea, form button");
-              formElements.forEach(element => {
-                  element.style.display = "none";
-              });
-  
-              // Show the thank you message
-              const thankYouMessage = document.getElementById("thankYouMessage");
-              thankYouMessage.style.display = "block";
-  
-              // You can also submit the form here if needed
-              // document.querySelector("form").submit();
-          }
-      </script>
+     
     </section><!-- end payment -->
 
 
